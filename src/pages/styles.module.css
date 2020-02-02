@@ -8,6 +8,12 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  height: 80vh;
+}
+
+.heroBanner p {
+  line-height: 1.8125rem;
+  font-size: 1.2rem;
 }
 
 @media screen and (max-width: 966px) {
