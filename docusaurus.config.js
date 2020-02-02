@@ -2,7 +2,7 @@ module.exports = {
   title: 'Bem vindos',
   tagline: 'Este mundinho ainda está em construção.',
   url: 'https://edsonluiz.github.io',
-  baseUrl: '/edsonluiz.github.io/',
+  baseUrl: '/',
   favicon: 'img/favicon.png',
   organizationName: 'edsonluiz', // Usually your GitHub org/user name.
   projectName: 'edsonluiz.github.io', // Usually your repo name.
