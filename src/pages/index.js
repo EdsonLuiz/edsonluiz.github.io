@@ -64,16 +64,17 @@ function Home() {
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          {/* <p className="hero__subtitle">{siteConfig.tagline}</p> */}
+          <p>
+          Este mundinho ainda está em construção.
+          <br />
+          Que tal dar uma olhada no meu github enquanto eu arrumo as coisas por aqui?
+          </p>
           <div className={styles.buttons}>
-            <Link
-              className={classnames(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/doc1')}>
-              Get Started
-            </Link>
+            <a className="button button--outline button--secondary button--lg" 
+              href="https://github.com/EdsonLuiz" target="_blank">
+              Ir para o github
+            </a>
           </div>
         </div>
       </header>
